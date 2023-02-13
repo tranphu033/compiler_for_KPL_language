@@ -1,0 +1,17 @@
+Program Test;
+
+function f(x:integer):integer;
+  Begin
+    if x/2*2-x =0 then f:=1 else f:=0;
+  End; 
+
+function g(y: integer):integer;
+  Begin
+    f:= y*y;
+  End;
+
+ Begin
+   Call writeI(f(2));
+   Call writeLn();
+   Call writeI(g(2));
+ End.
